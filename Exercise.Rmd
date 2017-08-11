@@ -26,9 +26,3 @@ remaining_tot <- rowSums(remaing)
 
 profit <- remaining_tot - budget
 
-echo "# R---Microsoft-EdX" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/hna040894/R---Microsoft-EdX.git
-git push -u origin master
