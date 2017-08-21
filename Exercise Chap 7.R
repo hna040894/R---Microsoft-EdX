@@ -36,7 +36,6 @@ salaries_educ <- salaries[salaries$degree == 3,]
 # Create a histogram of the salary column
 hist(salaries_educ$salary, breaks = 10)
 
-# movies is pre-loaded in your workspace
 
 # Create a customized plot
      plot(movies$votes, movies$runtime,
@@ -47,7 +46,6 @@ hist(salaries_educ$salary, breaks = 10)
           col = "#dd2d2d",
           col.main = 604,
           pch = 9)
-
      
 # Customize the plot further
  plot(movies$votes, movies$year,
@@ -57,6 +55,7 @@ hist(salaries_educ$salary, breaks = 10)
           col = "orange",
           pch = 19,
           cex.axis = 0.8)
+
  # Build a customized histogram
  hist(movies$runtime, 
       breaks = 20,
