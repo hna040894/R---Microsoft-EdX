@@ -47,7 +47,7 @@ hist(salaries_educ$salary, breaks = 10)
           col = "#dd2d2d",
           col.main = 604,
           pch = 9)
-# movies is pre-loaded in your workspace
+
      
 # Customize the plot further
  plot(movies$votes, movies$year,
@@ -81,8 +81,6 @@ hist(salaries_educ$salary, breaks = 10)
       col.main = "red",
       cex.axis = 1.20)
  
- # movies is pre-loaded in your workspace
- 
  # List all the graphical parameters
  par()
  
@@ -93,7 +91,6 @@ hist(salaries_educ$salary, breaks = 10)
  plot(movies$votes, movies$rating)
  hist(movies$votes)
  
- # movies is pre-loaded in your workspace
  
  # Build the grid matrix
  grid <- matrix(c(1, 2, 3 ,3), nrow = 2)
